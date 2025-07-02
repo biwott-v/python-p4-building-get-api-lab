@@ -8,7 +8,6 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-# Import models (assuming they're defined in models.py)
 from models import Bakery, BakedGood
 
 @app.route('/')
